@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  background: #e01226;
+  color: #fff;
+}
+
+/* Header Section Start */
+.header {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.header .img-parent {
+  position: relative;
+}
+.header img {
+  height: 100vh;
+  width: 100%;
+}
+.header .img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.7;
+}
+.header .img-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff !important;
+}
+.header .img-content h6 {
+  font-weight: bold;
+  font-size: 6em;
+  font-family: "Great Vibes", cursive;
+  color: #fff !important;
+}
+
+/* Header Section End */
+
+/* For You Section Start */
+.for_you {
+  margin: 200px auto;
+}
+.content {
+  text-align: center;
+}
+.content h6 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+.for_you .custom img {
+  height: 800px;
+}
+.for_you .col-sm-12 img {
+  margin-bottom: 10px;
+}
+img {
+  object-fit: cover;
+}
+.for_you img {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.for_you img:hover {
+  transform: scale(1.02);
+}
+.first {
+  margin-top: 100px;
+}
+/* For You Section End */
+
+/* Trust Section Start */
+.trust .box {
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.4),
+    inset 10px 10px 10px -10px rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.box:hover {
+  background: #000;
+  color: #fff !important;
+}
+.trust .box i {
+  font-size: 200px;
+}
+.trust {
+  margin-bottom: 100px;
+}
+/* Trust Section End */
+
+/* footer SEction STart */
+footer {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
